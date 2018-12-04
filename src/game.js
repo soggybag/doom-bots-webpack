@@ -1,4 +1,5 @@
 import { Scene } from 'phaser'
+import Background from './background'
 
 // -------------------------------------------------
 // Game 

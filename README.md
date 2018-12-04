@@ -10,7 +10,7 @@ is a library for making games with JavaScript.
 <figure style="width: 270px; margin: auto">
     <img src="Doom-Bots.gif" width="270" height="480">
     <figcaption>
-        Blast the Doom Bots!
+        <p style="text-align:center">Blast the Doom Bots!</p>
     </figcaption>
 </figure>
 
