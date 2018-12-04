@@ -153,7 +153,6 @@ class Game extends Scene {
 		}
 	}
 
-
 	resetAlien() {
 		this.canUpdateAlien = true
 		this.alien.x = 0
@@ -162,12 +161,10 @@ class Game extends Scene {
 		this.alienSpeedX = Phaser.Math.Between(1, 10) / 1000
 	}
 
-
 	moveAlien(time, delta) {
 		this.alien.y += (this.alienTargetY - this.alien.y) * 0.3
 		this.alien.x = (Math.sin(time * this.alienSpeedX) * 80) + 135
 	}
-
 
 	launchRocket() {
 		if (this.isGameOver) {
@@ -182,7 +179,6 @@ class Game extends Scene {
 	onPointerDown() {
 
 	}
-
 
 	rocketCollideWithAlien(rocket, alien) {
 		if (!this.canUpdateAlien) {
