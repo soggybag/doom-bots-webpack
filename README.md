@@ -14,6 +14,11 @@ is a library for making games with JavaScript.
     </figcaption>
 </figure>
 
+## Phaser 3 Resources 
+
+- The [Phaser 3 Docs](https://photonstorm.github.io/phaser3-docs/)
+- The [Phaser 3 Labs](https://labs.phaser.io)
+
 ## Requirements
 
 To run this project you will need to have [Node.js](https://nodejs.org).
@@ -38,10 +43,11 @@ Stop the server by pressing `control + c` in the terminal.
 
 The game is in process and needs work. 
 
-- Add Score 
+- Add Score
+    - Blocker: Need to make a Font SpriteSheet
+        - http://labs.phaser.io/edit.html?src=src%5Cgame%20objects%5Cbitmaptext%5Cstatic%5Cbitmaptext-atlas.js
 - Change background color as levels progress
 - Incrementally increase the alien speed 
     - Currently the game has a fixed range for the speed of the alien. This imposes a fixed difficulty. The goal of this item is to add increased difficuly over time. 
 - Improve Preload screen
 - Add custom fonts
-- 
