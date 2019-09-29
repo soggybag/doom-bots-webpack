@@ -11,12 +11,12 @@ class Preloader extends Scene {
   }
 
   preload() {
-    this.load.image('bg-static', 'assets/square.png')
-    this.load.image('bg-overlay', 'assets/bg.png')
-    this.load.image('rocket', 'assets/rocket.png')
-    this.load.image('alien', 'assets/alien.png')
-    this.load.image('particle', 'assets/Particles.png')
-    this.load.image('spike', 'assets/Spikes.png')
+    this.load.image('bg-static', './assets/square.png')
+    this.load.image('bg-overlay', './assets/bg.png')
+    this.load.image('rocket', './assets/rocket.png')
+    this.load.image('alien', './assets/alien.png')
+    this.load.image('particle', './assets/Particles.png')
+    this.load.image('spike', './assets/Spikes.png')
   }
 
   create() {
