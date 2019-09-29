@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable semi */
 import Phaser from 'phaser'
 import Preloader from './preloader'
@@ -13,7 +14,7 @@ const gameConfig = {
     Game,
   ],
 }
+
 const game = new Phaser.Game(gameConfig)
-
+console.log(game)
 window.focus()
-
