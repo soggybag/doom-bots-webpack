@@ -1,12 +1,12 @@
 {
   "name": "phaser3-project-template",
-  "homepage": "https://soggybag.github.io/doom-bots-webpack",
+  "homepage": "https://github.com/photonstorm/phaser3-project-template#readme",
   "version": "1.0.9",
   "description": "A Phaser 3 Project Template",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "npm run build && webpack-dev-server --port=8000",
+    "build": "webpack --mode production",
+    "start": "npm run build && webpack serve --port=8000 --mode development",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -20,17 +20,17 @@
   "bugs": {
     "url": "https://github.com/photonstorm/phaser3-project-template/issues"
   },
-  "homepage": "https://github.com/photonstorm/phaser3-project-template#readme",
   "devDependencies": {
-    "eslint": "^5.9.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "raw-loader": "^0.5.1",
-    "webpack": "^3.4.1",
-    "webpack-dev-server": "^3.1.11"
+    "eslint": "8.24.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "raw-loader": "4.0.2",
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.11.1"
   },
   "dependencies": {
-    "gh-pages": "^2.1.1",
-    "phaser": "^3.3.0"
+    "gh-pages": "4.0.0",
+    "phaser": "3.55.2"
   }
 }
